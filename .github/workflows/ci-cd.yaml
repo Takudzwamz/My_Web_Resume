@@ -6,16 +6,21 @@ on:
     - master
 
 jobs:
-    build:
+  build:
     runs-on: ubuntu-latest
+    name: Dotnet Side by Side testing sample
     steps:
-      - name: Check out code 
-        uses: actions/checkout@v2 
-      - name: Setup .Net 3.1
+      - uses: actions/checkout@v2
+      - name: Setup dotnet
         uses: actions/setup-dotnet@v1
         with:
           dotnet-version: '3.1.x'
-      - name: Restore dependencies
-        run: dotnet restore
-      - name: Build app
-        run: dotnet build -c Release --no-restore
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '3.1.x'
+      - run: dotnet restore
+      - run: dotnet build -c Release --no-restore
+
+
+
