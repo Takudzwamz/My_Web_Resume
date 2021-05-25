@@ -1,0 +1,34 @@
+[
+  {
+    "Name": "Gas/kg",
+    "Description": "LPG - liquefied petroleum gas or liquid petroleum gas – (LP gas), the constituents of which are propane and butane, are flammable hydrocarbon fuel gases used for LPG heating, cooking and vehicles.",
+    "Price": 20,
+    "PictureUrl": "images/products/0d947ac1-f60d-471d-a41e-d4ed7a6d3121.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Exchange-9kgs",
+    "Description": "LPG - liquefied petroleum gas or liquid petroleum gas – (LP gas), the constituents of which are propane and butane, are flammable hydrocarbon fuel gases used for LPG heating, cooking and vehicles.",
+    "Price": 180,
+    "PictureUrl": "images/products/0d947ac1-f60d-471d-a41e-d4ed7a6d3121.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Exchange-19kgs",
+    "Description": "LPG - liquefied petroleum gas or liquid petroleum gas – (LP gas), the constituents of which are propane and butane, are flammable hydrocarbon fuel gases used for LPG heating, cooking and vehicles.",
+    "Price": 380,
+    "PictureUrl": "images/products/4951fb22-46e2-4de6-a7e0-1d05ee1cbf84.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Exchange-48kgs",
+    "Description": "LPG - liquefied petroleum gas or liquid petroleum gas – (LP gas), the constituents of which are propane and butane, are flammable hydrocarbon fuel gases used for LPG heating, cooking and vehicles.",
+    "Price": 960,
+    "PictureUrl": "images/products/243cc1a3-a555-45a7-97a3-ad54d786f9a7.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  }
+]
