@@ -120,31 +120,19 @@ select {
   padding-right: 20px;
 }
 
-.search-nav-item {
-  height: 40px;
-}
 
-nav {
-  padding: 0px 100px;
-}
 
-.fa-user-o,
-.fa-shopping-cart {
-  font-size: 20px;
-  padding: 4px;
-}
 
-.form-group {
-  margin-bottom: 5px;
-}
+
+
+
+
 
 label {
   padding-left: 10px;
 }
 
-.form-group:last-child {
-  margin-bottom: 0;
-}
+
 
 h6 {
   margin-bottom: 0px;
@@ -171,37 +159,15 @@ h6 {
   padding: 8px;
 }
 
-.sign {
-  width: 25px;
-  height: 25px;
-}
 
-.discount {
-  border: 1px solid orange;
-  border-radius: 5px;
-  width: 65px;
-  position: absolute;
-  top: 2%;
-}
+
+
 
 @media (min-width: 1200px) {
   #search {
     width: 300px;
     padding: 5px;
     padding-left: 20px;
-  }
-
-  .search-nav-item {
-    margin-left: 400px;
-    width: 350px;
-  }
-
-  .fa-user-o {
-    margin-left: 300px;
-  }
-
-  .text {
-    display: none;
   }
 
   .fa-user-o,
@@ -235,9 +201,7 @@ h6 {
     border-radius: 10px;
   }
 
-  del {
-    padding-right: 2px;
-  }
+ 
 
   .filter,
   #mobile-filter {
@@ -250,19 +214,6 @@ h6 {
     width: 300px;
     padding: 5px;
     padding-left: 20px;
-  }
-
-  .search-nav-item {
-    margin-left: 200px;
-    width: 350px;
-  }
-
-  .fa-user-o {
-    margin-left: 160px;
-  }
-
-  .text {
-    display: none;
   }
 
   #sidebar {
@@ -295,10 +246,7 @@ h6 {
     font-size: 12px;
   }
 
-  .sign {
-    height: 25px;
-  }
-
+  
   .price {
     width: 99px;
   }
@@ -316,18 +264,7 @@ h6 {
     padding-left: 20px;
   }
 
-  .search-nav-item {
-    margin-left: 60px;
-    width: 350px;
-  }
-
-  .fa-user-o {
-    margin-left: 80px;
-  }
-
-  .text {
-    display: none;
-  }
+  
 
   #sidebar {
     width: 35%;
@@ -353,14 +290,7 @@ h6 {
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
-  .text {
-    display: none;
-  }
-
-  .search-nav-item {
-    margin-left: 35px;
-    width: 270px;
-  }
+  
 
   #search {
     width: 240px;
@@ -368,10 +298,7 @@ h6 {
     padding-left: 20px;
   }
 
-  .fa-search {
-    padding: 3px;
-    font-size: 18px;
-  }
+  
 
   #sidebar {
     width: 40%;
@@ -390,9 +317,7 @@ h6 {
     border: none;
   }
 
-  #off {
-    padding-left: 2px;
-  }
+ 
 
   #sorting span,
   #res {
@@ -419,19 +344,13 @@ h6 {
     padding-right: 10px;
   }
 
-  .fa-search {
-    padding: 10px;
-    font-size: 18px;
-  }
+ 
 
   #sidebar {
     display: none;
   }
 
-  .filter {
-    margin-left: 70%;
-    margin-top: 2%;
-  }
+ 
 
   #sorting,
   #res {
@@ -459,10 +378,7 @@ background: rgba( 0, 0, 0, 0.25 );
   scroll-behavior: smooth;
 }
 
-body {
-  background: linear-gradient(to bottom right, #1f72ee 20%, #fc08db 80%);
-  min-height: 90vh;
-}
+
 
 .container {
   margin-top: 70px;
@@ -485,49 +401,18 @@ body {
   position: relative;
 }
 
-input[type="checkbox"] {
-  position: absolute;
-  width: 20px;
-  opacity: 0;
-  z-index: 200;
-  right: 10px;
-  top: 10px;
-  cursor: pointer;
-}
 
-.fas.fa-heart {
-  position: absolute;
-  cursor: pointer;
-  right: 10px;
-  top: 10px;
-  font-size: 1.3rem;
-  color: #ffffff80;
-}
+
+
 
 .container .row .card .card-body {
   padding: 1rem 1.2rem;
   color: #fff;
 }
 
-@keyframes heart {
-  0% {
-    transform: scale(0.5);
-  }
 
-  20% {
-    transform: scale(1);
-  }
 
-  100% {
-    transform: scale(1);
-  }
-}
 
-input[type="checkbox"]:checked + .fas.fa-heart {
-  will-change: font-size;
-  color: #e2264d;
-  animation: heart 1s cubic-bezier(0.17, 0.89, 0.32, 1.49);
-}
 
 .container .row .card .card-body .card-img img {
   width: 80px;

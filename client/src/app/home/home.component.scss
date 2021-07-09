@@ -1724,7 +1724,7 @@ img {
 		display: block;
 		text-align: center;
 		border: none;
-		margin-bottom: 120px;
+		margin-bottom: 50px;
 		li{
 			display: inline-block;
 			margin-right: 8px;
@@ -1740,7 +1740,7 @@ img {
 				border: 1px solid #9ab5f5;
 				background: rgba(255, 255, 255, .1);
 				&.active{
-					background: #fff;
+					background: rgba(255, 255, 255, 0);
 					color: $dip;
 				}
 			}
@@ -1849,11 +1849,12 @@ img {
 	margin-bottom: -30px;
 }
 .feature_item{
-	padding: 50px 35px;
+	padding: 20px 35px;
 	border-radius: 10px;
 	@include transition;
 	background: #fff;
 	margin-bottom: 30px;
+	height: 300px;
 	i{
 		margin-bottom: 35px;
 		display: block;
